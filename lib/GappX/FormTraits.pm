@@ -1,6 +1,6 @@
 package GappX::FormTraits;
 {
-  $GappX::FormTraits::VERSION = '0.200';
+  $GappX::FormTraits::VERSION = '0.201';
 }
 
 use GappX::FormTraits::Meta::Widget::Custom::Trait::CityEntry;
