@@ -1,6 +1,9 @@
 Changes for GappX-FormTraits
 
 {{$NEXT}}
+- bug fix: reference gobject instead of gtk_widget
+
+0.201     2012-10-03 12:22:38
 - fixed tests ( work with Gapp .40.x )
 
 0.200     2012-10-03 12:16:47

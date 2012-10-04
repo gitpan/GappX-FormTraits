@@ -22,7 +22,7 @@ my %WriteMakefileArgs = (
   "PREREQ_PM" => {
     "Gapp" => 0
   },
-  "VERSION" => "0.201",
+  "VERSION" => "0.202",
   "test" => {
     "TESTS" => "t/*.t"
   }

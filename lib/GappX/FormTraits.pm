@@ -1,6 +1,6 @@
 package GappX::FormTraits;
 {
-  $GappX::FormTraits::VERSION = '0.201';
+  $GappX::FormTraits::VERSION = '0.202';
 }
 
 use GappX::FormTraits::Meta::Widget::Custom::Trait::CityEntry;
@@ -67,10 +67,6 @@ Sets C<width-chars> to 5.
 =head1 AUTHORS
 
 Jeffrey Ray Hallock E<lt>jeffrey.hallock at gmail dot comE<gt>
-
-Individual packages in this module may have have multiple authors/and or
-contributors. Please refer to the documentation of indivdual packages for
-more information.
 
 =head1 COPYRIGHT & LICENSE
 

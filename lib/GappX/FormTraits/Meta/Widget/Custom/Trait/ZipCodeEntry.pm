@@ -1,6 +1,6 @@
 package GappX::FormTraits::Meta::Widget::Custom::Trait::ZipCodeEntry;
 {
-  $GappX::FormTraits::Meta::Widget::Custom::Trait::ZipCodeEntry::VERSION = '0.201';
+  $GappX::FormTraits::Meta::Widget::Custom::Trait::ZipCodeEntry::VERSION = '0.202';
 }
 
 use Moose::Role;
@@ -14,18 +14,18 @@ around BUILDARGS => sub {
 # returns the value of the widget
 around 'get_field_value' => sub {
     my ( $orig, $self, @args ) = @_;
-    $self->gtk_widget->get_text eq '' ? undef : $self->gtk_widget->get_text;
+    $self->gobject->get_text eq '' ? undef : $self->gtk_widget->get_text;
 };
 
 around 'set_field_value' => sub {
     my ( $orig, $self, $value ) = @_;
-    $self->gtk_widget->set_value( defined $value ? $value : '' );
+    $self->gobject->set_value( defined $value ? $value : '' );
 };
 
 
 package Gapp::Meta::Widget::Custom::Trait::ZipCodeEntry;
 {
-  $Gapp::Meta::Widget::Custom::Trait::ZipCodeEntry::VERSION = '0.201';
+  $Gapp::Meta::Widget::Custom::Trait::ZipCodeEntry::VERSION = '0.202';
 }
 sub register_implementation { 'GappX::FormTraits::Meta::Widget::Custom::Trait::ZipCodeEntry' };
 
