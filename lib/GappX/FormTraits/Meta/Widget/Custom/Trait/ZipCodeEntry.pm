@@ -1,6 +1,6 @@
 package GappX::FormTraits::Meta::Widget::Custom::Trait::ZipCodeEntry;
 {
-  $GappX::FormTraits::Meta::Widget::Custom::Trait::ZipCodeEntry::VERSION = '0.202';
+  $GappX::FormTraits::Meta::Widget::Custom::Trait::ZipCodeEntry::VERSION = '0.203';
 }
 
 use Moose::Role;
@@ -25,7 +25,7 @@ around 'set_field_value' => sub {
 
 package Gapp::Meta::Widget::Custom::Trait::ZipCodeEntry;
 {
-  $Gapp::Meta::Widget::Custom::Trait::ZipCodeEntry::VERSION = '0.202';
+  $Gapp::Meta::Widget::Custom::Trait::ZipCodeEntry::VERSION = '0.203';
 }
 sub register_implementation { 'GappX::FormTraits::Meta::Widget::Custom::Trait::ZipCodeEntry' };
 

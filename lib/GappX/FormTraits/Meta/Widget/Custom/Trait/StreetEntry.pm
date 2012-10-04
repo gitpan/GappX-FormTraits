@@ -1,6 +1,6 @@
 package GappX::FormTraits::Meta::Widget::Custom::Trait::StreetEntry;
 {
-  $GappX::FormTraits::Meta::Widget::Custom::Trait::StreetEntry::VERSION = '0.202';
+  $GappX::FormTraits::Meta::Widget::Custom::Trait::StreetEntry::VERSION = '0.203';
 }
 
 use Moose::Role;
@@ -14,7 +14,7 @@ around BUILDARGS => sub {
 
 package Gapp::Meta::Widget::Custom::Trait::StreetEntry;
 {
-  $Gapp::Meta::Widget::Custom::Trait::StreetEntry::VERSION = '0.202';
+  $Gapp::Meta::Widget::Custom::Trait::StreetEntry::VERSION = '0.203';
 }
 sub register_implementation { 'GappX::FormTraits::Meta::Widget::Custom::Trait::StreetEntry' };
 

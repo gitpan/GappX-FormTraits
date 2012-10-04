@@ -1,6 +1,6 @@
 package GappX::FormTraits::Meta::Widget::Custom::Trait::CityEntry;
 {
-  $GappX::FormTraits::Meta::Widget::Custom::Trait::CityEntry::VERSION = '0.202';
+  $GappX::FormTraits::Meta::Widget::Custom::Trait::CityEntry::VERSION = '0.203';
 }
 
 use Moose::Role;
@@ -14,7 +14,7 @@ around BUILDARGS => sub {
 
 package Gapp::Meta::Widget::Custom::Trait::CityEntry;
 {
-  $Gapp::Meta::Widget::Custom::Trait::CityEntry::VERSION = '0.202';
+  $Gapp::Meta::Widget::Custom::Trait::CityEntry::VERSION = '0.203';
 }
 sub register_implementation { 'GappX::FormTraits::Meta::Widget::Custom::Trait::CityEntry' };
 
