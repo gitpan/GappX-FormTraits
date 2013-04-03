@@ -1,6 +1,9 @@
 Changes for GappX-FormTraits
 
 {{$NEXT}}
+- fix zip code entry
+
+0.204     2012-10-05 17:59:31
 
 0.203     2012-10-04 18:21:34
 -fix zip
